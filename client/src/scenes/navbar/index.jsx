@@ -54,7 +54,7 @@ const Navbar = () => {
                         },
                     }}
                 >
-                    Budgeting App
+                    Little Blue Book
                 </Typography>
             </FlexBetween>
 

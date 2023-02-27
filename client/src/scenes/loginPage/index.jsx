@@ -14,7 +14,7 @@ const LoginPage = () => {
                 textAlign="center"
             >
                 <Typography fontWeight="bold" fontSize="32px" color="primary">
-                    Budgeting App
+                    Little Blue Book
                 </Typography>
             </Box>
             <Box
@@ -25,7 +25,7 @@ const LoginPage = () => {
                 backgroundColor={theme.palette.background.alt}
             >
                 <Typography fontWeight="500" variant="h5" sx={{ mb: "1.5rem" }}>
-                    Welcoming Sentence
+                    Welcome! Please sign up or log in to continue.
                 </Typography>
                 <Form />
             </Box>
