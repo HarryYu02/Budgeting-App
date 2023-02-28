@@ -43,7 +43,7 @@ const BudgetWidget = ({ userId }) => {
     const deleteBudget = async (budgetId) => {
         // console.log(selectionModel);
         const response = await fetch(
-            `http://localhost:001/users/${user._id}/budgets/${budgetId}/delete`,
+            `${process.env.REACT_APP_BASE_URL}/users/${user._id}/budgets/${budgetId}/delete`,
             {
                 method: "PATCH",
                 headers: {
