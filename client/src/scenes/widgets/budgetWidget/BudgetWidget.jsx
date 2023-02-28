@@ -22,7 +22,7 @@ const BudgetWidget = ({ userId }) => {
 
     const getBudgets = async () => {
         const response = await fetch(
-            `http://localhost:5001/users/${userId}/budgets`,
+            `${process.env.REACT_APP_BASE_URL}/users/${userId}/budgets`,
             {
                 method: "GET",
                 headers: {
@@ -43,7 +43,7 @@ const BudgetWidget = ({ userId }) => {
     const deleteBudget = async (budgetId) => {
         // console.log(selectionModel);
         const response = await fetch(
-            `http://localhost:5001/users/${user._id}/budgets/${budgetId}/delete`,
+            `http://localhost:001/users/${user._id}/budgets/${budgetId}/delete`,
             {
                 method: "PATCH",
                 headers: {

@@ -51,7 +51,7 @@ const Form = () => {
     const register = async (values, onSubmitProps) => {
         // console.log(values);
         const savedUserResponse = await fetch(
-            "http://localhost:5001/auth/register",
+            `${process.env.REACT_APP_BASE_URL}/auth/register`,
             {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
@@ -69,7 +69,7 @@ const Form = () => {
     const login = async (values, onSubmitProps) => {
         // console.log(values);
         const loggedInUserResponse = await fetch(
-            "http://localhost:5001/auth/login",
+            `${process.env.REACT_APP_BASE_URL}/auth/login`,
             {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },

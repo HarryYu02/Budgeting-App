@@ -66,7 +66,7 @@ const TransactionForm = () => {
 
     const handleFormSubmit = async (values, onSubmitProps) => {
         const response = await fetch(
-            `http://localhost:5001/users/${_id}/new-transaction`,
+            `${process.env.REACT_APP_BASE_URL}/users/${_id}/new-transaction`,
             {
                 method: "POST",
                 headers: {
