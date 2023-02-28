@@ -65,7 +65,7 @@ const TransactionTable = () => {
             // console.log(user._id);
             // console.log(selectionModel[i]);
             const response = await fetch(
-                `http://localhost:3001/users/${user._id}/transactions/${selectionModel[i]}/delete`,
+                `http://localhost:5001/users/${user._id}/transactions/${selectionModel[i]}/delete`,
                 {
                     method: "PATCH",
                     headers: {

@@ -28,11 +28,6 @@ app.use(cors());
 app.use("/auth", authRoutes);
 app.use("/users", userRoutes);
 
-const path = require("path");
-app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "build"));
-});
-
 /* MONGOOSE SETUP */
 const PORT = process.env.PORT || 6001;
 mongoose

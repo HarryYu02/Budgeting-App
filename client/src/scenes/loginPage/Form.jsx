@@ -51,7 +51,7 @@ const Form = () => {
     const register = async (values, onSubmitProps) => {
         // console.log(values);
         const savedUserResponse = await fetch(
-            "http://localhost:3001/auth/register",
+            "http://localhost:5001/auth/register",
             {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
@@ -69,7 +69,7 @@ const Form = () => {
     const login = async (values, onSubmitProps) => {
         // console.log(values);
         const loggedInUserResponse = await fetch(
-            "http://localhost:3001/auth/login",
+            "http://localhost:5001/auth/login",
             {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },

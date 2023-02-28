@@ -24,7 +24,7 @@ const SpendingWidget = ({ userId }) => {
     // console.log(userId);
 
     const getUser = async () => {
-        const response = await fetch(`http://localhost:3001/users/${userId}`, {
+        const response = await fetch(`http://localhost:5001/users/${userId}`, {
             method: "GET",
             headers: {
                 Authorization: `Bearer ${token}`,
@@ -37,7 +37,7 @@ const SpendingWidget = ({ userId }) => {
 
     const getTransactions = async () => {
         const response = await fetch(
-            `http://localhost:3001/users/${userId}/transactions`,
+            `http://localhost:5001/users/${userId}/transactions`,
             {
                 method: "GET",
                 headers: {

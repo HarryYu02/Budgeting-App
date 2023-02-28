@@ -55,7 +55,7 @@ const BudgetForm = () => {
 
     const handleFormSubmit = async (values, onSubmitProps) => {
         const response = await fetch(
-            `http://localhost:3001/users/${_id}/new-budget`,
+            `http://localhost:5001/users/${_id}/new-budget`,
             {
                 method: "POST",
                 headers: {
