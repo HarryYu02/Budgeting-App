@@ -1,11 +1,11 @@
-## Little Blue Book - A Full Stack MERN Budgeting App
-Little blue book is a small budgeting web app that can help you keep track of your monthly budgets and transactions, and visualize how much you have spent on each category to help you stick to your budget. This app is created as my personal project for my portfolio, it's my first MERN app ever so I learn a lot about full stack developing and the MERN stack in the process. 
+## Little Blue Book
+Little Blue Book is a web app designed to help you manage your monthly budgets and transactions, while also providing an intuitive interface to visualize how much you've spent on each category. This app is my personal project for my portfolio, and I've built it using the MERN stack, learning a lot about full-stack development in the process.
+
+The app is hosted on render.com, and as I'm currently using the free tier, the backend may take a few minutes to deploy when you use it.
 
 > Link:
 > [https://little-blue-book.onrender.com/](https://little-blue-book.onrender.com/
 > "https://little-blue-book.onrender.com/")
-
-The backend is hosted on render.com and I only have free tier so it shuts down everytime when it's not active, therefore it might take a few minutes to deploy when you use it.
 
 ## Usage
  - Register
